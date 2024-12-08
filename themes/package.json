@@ -1,0 +1,20 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass mint/scss/style.scss mint/css/style.css --no-source-map --silence-deprecation=import,global-builtin",
+    "style-min": "sass mint/scss/style.scss mint/css/style.min.css --no-source-map --style compressed --silence-deprecation=import,global-builtin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.82.0",
+    "stylelint": "^16.11.0",
+    "stylelint-config-sass-guidelines": "^12.1.0"
+  }
+}
